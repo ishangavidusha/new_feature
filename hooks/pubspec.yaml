@@ -1,0 +1,8 @@
+name: hooks
+description: Mason hooks for new_feature brick
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  mason: any

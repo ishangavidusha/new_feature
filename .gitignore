@@ -1,0 +1,22 @@
+# Dart & Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Mason
+.mason/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hooks generated files
+hooks/.dart_tool/
+hooks/pubspec.lock
+hooks/build/

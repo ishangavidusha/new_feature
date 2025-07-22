@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:mason/mason.dart';
 
 void run(HookContext context) {
   // Get the feature name from context variables
