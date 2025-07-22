@@ -144,7 +144,7 @@ lib/your_feature/
 After generating a feature, import it in your app:
 
 ```dart
-import 'package:your_app/app/your_feature/your_feature.dart';
+import 'package:your_app/your_feature/your_feature.dart';
 ```
 
 ## Error Handling

@@ -28,7 +28,7 @@ void run(HookContext context) {
   context.logger.info('');
   context.logger.info('📝 Next steps:');
   context.logger.info('   1. Add your feature to the main app by importing:');
-  context.logger.info('      import \'package:your_app/app/$featureName/$featureName.dart\';');
+  context.logger.info('      import \'package:your_app/$featureName/$featureName.dart\';');
   context.logger.info('   2. Implement your models in lib/$featureName/model/model.dart');
   context.logger.info('   3. Add business logic in lib/$featureName/controller/');
   context.logger.info('   4. Build your UI in lib/$featureName/view/$featureName.dart');

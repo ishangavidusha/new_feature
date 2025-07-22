@@ -11,6 +11,12 @@ void run(HookContext context) {
     exit(1);
   }
   
+  // Check if we're in a Flutter project directory
+  if (!Directory('lib').existsSync()) {
+    context.logger.err('No lib directory found. Please run this command from the root of your Flutter project.');
+    exit(1);
+  }
+  
   // Check if feature directory already exists
   final featureDir = Directory('lib/$featureName');
   
