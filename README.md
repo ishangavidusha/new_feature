@@ -29,6 +29,12 @@ dart pub global activate mason_cli
 
 ### Install the Brick
 
+First, navigate to your Flutter project directory and initialize Mason:
+```bash
+cd your_flutter_project
+mason init
+```
+
 #### Option 1: Install from GitHub (Recommended)
 ```bash
 mason add new_feature --git-url https://github.com/ishangavidusha/new_feature
@@ -49,6 +55,27 @@ mason add new_feature --path .
 mason list
 ```
 You should see `new_feature` in the list of available bricks.
+
+## Quick Start
+
+Here's the complete process to get started:
+
+```bash
+# 1. Install Mason CLI (if not already installed)
+dart pub global activate mason_cli
+
+# 2. Navigate to your Flutter project
+cd your_flutter_project
+
+# 3. Initialize Mason in your project
+mason init
+
+# 4. Add the new_feature brick
+mason add new_feature --git-url https://github.com/ishangavidusha/new_feature
+
+# 5. Create your first feature
+mason make new_feature --feature_name=user_profile
+```
 
 ## Usage
 
