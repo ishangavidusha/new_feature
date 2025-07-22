@@ -19,6 +19,37 @@ Creates a complete feature directory with proper separation of concerns:
 - View layer (UI components)
 - Widgets layer (reusable components)
 
+## Installation
+
+### Prerequisites
+Make sure you have Mason CLI installed:
+```bash
+dart pub global activate mason_cli
+```
+
+### Install the Brick
+
+#### Option 1: Install from GitHub (Recommended)
+```bash
+mason add new_feature --git-url https://github.com/ishangavidusha/new_feature
+```
+
+#### Option 2: Install Locally (for development)
+```bash
+# Clone the repository
+git clone https://github.com/ishangavidusha/new_feature.git
+cd new_feature
+
+# Add the brick locally
+mason add new_feature --path .
+```
+
+### Verify Installation
+```bash
+mason list
+```
+You should see `new_feature` in the list of available bricks.
+
 ## Usage
 
 ### Basic Usage
